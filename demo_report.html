@@ -1,0 +1,118 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Facebook Page Comparison — Mentat Logic</title><style>
+:root{--bg:#0C0E12;--panel:#12151B;--line:#232833;--line2:#1A1E27;--text:#E4E7EB;
+--text2:#B8BEC7;--muted:#8B949E;--dim:#5B616E;--gold:#C2A34F;--blue:#3E6DAE;
+--mono:"JetBrains Mono","SFMono-Regular",Consolas,monospace}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font:14px/1.55 -apple-system,"Segoe UI",Roboto,Arial,sans-serif;padding:34px 26px;max-width:1080px;margin:0 auto}
+header{border-bottom:1px solid var(--line);padding-bottom:18px;margin-bottom:20px}
+.brand{font-family:var(--mono);letter-spacing:.28em;font-size:12px;color:var(--gold)}
+h1{font-size:21px;font-weight:650;margin-top:8px}
+.sub{color:var(--muted);font-size:12px;margin-top:5px;font-family:var(--mono)}
+.demo-banner{background:#2A2413;border:1px solid #4A3F1E;color:var(--gold);font-family:var(--mono);font-size:11px;letter-spacing:.12em;padding:7px 12px;border-radius:4px;margin:16px 0 0;display:inline-block}
+.coverage{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--gold);border-radius:6px;padding:14px 16px;margin:22px 0;font-size:12.5px;color:var(--text2)}
+.coverage b{color:var(--text)}
+.coverage .cap{font-family:var(--mono);font-size:10px;letter-spacing:.18em;color:var(--gold);display:block;margin-bottom:7px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin:22px 0}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:14px 16px}
+.card .pg{font-weight:650;font-size:14px}
+.rank{font-family:var(--mono);font-size:11px;color:var(--gold);margin-right:6px}
+.card .row{display:flex;justify-content:space-between;margin-top:8px;font-size:12.5px}
+.card .row .k{color:var(--muted)}.card .row .v{font-family:var(--mono)}
+.sharebar{height:5px;background:var(--line2);border-radius:3px;overflow:hidden;margin-top:12px}
+.sharebar i{display:block;height:100%;background:var(--gold)}
+.sharecap{font-family:var(--mono);font-size:10px;color:var(--muted);margin-top:5px;letter-spacing:.08em}
+section{background:var(--panel);border:1px solid var(--line);border-radius:6px;margin:18px 0;overflow:hidden}
+.sec-head{display:flex;justify-content:space-between;align-items:baseline;padding:11px 16px;border-bottom:1px solid var(--line)}
+.sec-title{font-family:var(--mono);font-size:11px;letter-spacing:.22em;color:var(--text2)}
+.sec-note{font-size:10.5px;color:var(--dim);font-family:var(--mono)}
+.sec-body{padding:14px 16px}
+table{width:100%;border-collapse:collapse;font-size:12.5px}
+th{font-family:var(--mono);font-size:10px;letter-spacing:.14em;color:var(--muted);text-align:right;padding:6px 10px;border-bottom:1px solid var(--line);font-weight:500}
+th:first-child,td:first-child{text-align:left}
+td{padding:7px 10px;border-bottom:1px solid var(--line2);text-align:right;font-family:var(--mono);color:var(--text2)}
+td:first-child{font-family:inherit;color:var(--text);font-weight:550}
+.best{color:var(--gold)!important}.na{color:var(--dim)!important}
+.warn{color:var(--gold)}
+.cad{display:flex;align-items:flex-end;gap:3px;height:46px}
+.cad i{flex:1;background:var(--blue);border-radius:2px 2px 0 0;min-height:2px}
+.cadrow{display:grid;grid-template-columns:170px 1fr 80px;gap:14px;align-items:center;padding:8px 0;border-bottom:1px solid var(--line2)}
+.cadrow:last-child{border-bottom:none}
+.cadname{font-size:12.5px;font-weight:550}
+.cadtot{font-family:var(--mono);font-size:11px;color:var(--muted);text-align:right}
+.post{padding:9px 0;border-bottom:1px solid var(--line2);font-size:12.5px}
+.post:last-child{border-bottom:none}
+.post .meta{font-family:var(--mono);font-size:11px;color:var(--muted);margin-top:3px}
+.post .meta b{color:var(--gold);font-weight:500}
+a{color:var(--gold);text-decoration:none}
+.limits{font-size:11.5px;color:var(--muted);line-height:1.7}
+.limits li{margin-left:16px;margin-bottom:2px}
+footer{margin-top:26px;padding-top:14px;border-top:1px solid var(--line);display:flex;justify-content:space-between;font-family:var(--mono);font-size:10px;color:var(--dim);letter-spacing:.1em}
+</style></head><body>
+<header><span class="brand">MENTAT LOGIC</span>
+<h1>Facebook Page Comparison &amp; Benchmark</h1>
+<div class="sub">4 pages · 02 Jul → 15 Jul 2026 · generated 2026-07-18 04:07 UTC</div><div class="demo-banner">SAMPLE REPORT · SYNTHETIC DEMO DATA · NOT CHARGED</div></header>
+<div class="coverage"><span class="cap">COVERAGE — WHAT THIS REPORT IS BUILT ON</span>
+Compared <b>4 pages</b> across <b>78 unique posts</b>
+(79 rows supplied). Input format: <b>apify/facebook-posts-scraper (verified mapping)</b>.
+<b>1 duplicate posts</b> removed before counting — and before billing.
+0 rows carried no page identity and were excluded. <b>2 dateless posts</b> are included in totals but excluded from cadence and windows.
+Pages are compared only on what the dataset contains — this report never extrapolates.</div>
+<div class="grid">
+  <div class="card">
+    <div class="pg"><span class="rank">#1</span>Helen&#x27;s Fresh Market</div>
+    <div class="row"><span class="k">posts</span><span class="v">26</span></div>
+    <div class="row"><span class="k">engagement</span><span class="v">7,244</span></div>
+    <div class="row"><span class="k">eng / post (median)</span><span class="v">226</span></div>
+    <div class="sharebar"><i style="width:37.2%"></i></div>
+    <div class="sharecap">37.2% OF COMPARED SET</div>
+  </div>
+  <div class="card">
+    <div class="pg"><span class="rank">#2</span>Caladan Bay Tours</div>
+    <div class="row"><span class="k">posts</span><span class="v">22</span></div>
+    <div class="row"><span class="k">engagement</span><span class="v">5,691</span></div>
+    <div class="row"><span class="k">eng / post (median)</span><span class="v">323</span></div>
+    <div class="sharebar"><i style="width:29.2%"></i></div>
+    <div class="sharecap">29.2% OF COMPARED SET</div>
+  </div>
+  <div class="card">
+    <div class="pg"><span class="rank">#3</span>Island Bakery Co.</div>
+    <div class="row"><span class="k">posts</span><span class="v">18</span></div>
+    <div class="row"><span class="k">engagement</span><span class="v">4,675</span></div>
+    <div class="row"><span class="k">eng / post (median)</span><span class="v">274</span></div>
+    <div class="sharebar"><i style="width:24.0%"></i></div>
+    <div class="sharecap">24.0% OF COMPARED SET</div>
+  </div>
+  <div class="card">
+    <div class="pg"><span class="rank">#4</span>Windward Fitness</div>
+    <div class="row"><span class="k">posts</span><span class="v">12</span></div>
+    <div class="row"><span class="k">engagement</span><span class="v">1,886</span></div>
+    <div class="row"><span class="k">eng / post (median)</span><span class="v">132</span></div>
+    <div class="sharebar"><i style="width:9.7%"></i></div>
+    <div class="sharecap">9.7% OF COMPARED SET</div>
+  </div></div>
+<section><div class="sec-head"><span class="sec-title">HEAD-TO-HEAD</span>
+<span class="sec-note">gold = best in column · — = not present in the input data</span></div>
+<div class="sec-body"><table>
+<tr><th>PAGE</th><th>POSTS</th><th>REACTIONS</th><th>COMMENTS</th><th>SHARES</th><th>ENG/POST MED</th><th>POSTS/WEEK</th><th>DATA WINDOW</th></tr>
+<tr class=lead><td>Helen&#x27;s Fresh Market</td><td>26</td><td class="best">5,862</td><td class="best">812</td><td class="best">570</td><td>226</td><td>0.5</td><td>02 Jul → 15 Jul</td></tr><tr><td>Caladan Bay Tours</td><td>22</td><td>4,790</td><td>492</td><td>409</td><td class="best">323</td><td>3.3</td><td><span class="warn">01 Jun → 15 Jul ⚠</span></td></tr><tr><td>Island Bakery Co.</td><td>18</td><td>3,943</td><td>413</td><td>319</td><td>274</td><td>2.6</td><td><span class="warn">01 Jun → 15 Jul ⚠</span></td></tr><tr><td>Windward Fitness</td><td>12</td><td>1,649</td><td>237</td><td class="na">—</td><td>132</td><td class="best">42.0</td><td><span class="warn">14 Jul → 15 Jul ⚠</span></td></tr></table>
+<div style="font-size:11px;color:var(--muted);margin-top:9px">Island Bakery Co.: scraped for a shorter window (45d vs 379d union) — per-week rates comparable, totals are not<br>Caladan Bay Tours: scraped for a shorter window (45d vs 379d union) — per-week rates comparable, totals are not<br>Windward Fitness: scraped for a shorter window (2d vs 379d union) — per-week rates comparable, totals are not<br>Windward Fitness: shares absent from its rows — engagement for this page excludes shares, shown as —</div>
+</div></section>
+<section><div class="sec-head"><span class="sec-title">POSTING CADENCE</span>
+<span class="sec-note">posts over the compared window · dateless posts excluded here</span></div>
+<div class="sec-body"><div class="cadrow"><span class="cadname">Helen&#x27;s Fresh Market</span><div class="cad"><i style="height:5%"></i><i style="height:4%"></i><i style="height:4%"></i><i style="height:4%"></i><i style="height:4%"></i><i style="height:4%"></i><i style="height:4%"></i><i style="height:4%"></i><i style="height:4%"></i><i style="height:4%"></i><i style="height:47%"></i><i style="height:100%"></i></div><span class="cadtot">26 posts</span></div><div class="cadrow"><span class="cadname">Caladan Bay Tours</span><div class="cad"><i style="height:4%"></i><i style="height:4%"></i><i style="height:4%"></i><i style="height:4%"></i><i style="height:4%"></i><i style="height:4%"></i><i style="height:4%"></i><i style="height:4%"></i><i style="height:4%"></i><i style="height:4%"></i><i style="height:50%"></i><i style="height:100%"></i></div><span class="cadtot">22 posts</span></div><div class="cadrow"><span class="cadname">Island Bakery Co.</span><div class="cad"><i style="height:4%"></i><i style="height:4%"></i><i style="height:4%"></i><i style="height:4%"></i><i style="height:4%"></i><i style="height:4%"></i><i style="height:4%"></i><i style="height:4%"></i><i style="height:4%"></i><i style="height:4%"></i><i style="height:41%"></i><i style="height:100%"></i></div><span class="cadtot">18 posts</span></div><div class="cadrow"><span class="cadname">Windward Fitness</span><div class="cad"><i style="height:4%"></i><i style="height:4%"></i><i style="height:4%"></i><i style="height:4%"></i><i style="height:4%"></i><i style="height:4%"></i><i style="height:4%"></i><i style="height:4%"></i><i style="height:4%"></i><i style="height:4%"></i><i style="height:4%"></i><i style="height:100%"></i></div><span class="cadtot">12 posts</span></div></div></section>
+<section><div class="sec-head"><span class="sec-title">TOP POSTS BY ENGAGEMENT</span>
+<span class="sec-note">one line per page · links go to the original post</span></div>
+<div class="sec-body"><div class="post"><div>“Weekend catch is in — first 50 customers get the dockside price.”</div><div class="meta">Helen&#x27;s Fresh Market · <b>1,758 eng</b> · 06 Jun · <a href="https://facebook.com/helensfreshmarket/posts/1003" target="_blank" rel="noreferrer">open ↗</a></div></div><div class="post"><div>“Sunset sail, green flash on the horizon, zero photoshop. Swipe.”</div><div class="meta">Caladan Bay Tours · <b>541 eng</b> · 13 Jun · <a href="https://facebook.com/caladanbaytours/posts/1006" target="_blank" rel="noreferrer">open ↗</a></div></div><div class="post"><div>“Spice buns are back for the festival — the spice must flow.”</div><div class="meta">Island Bakery Co. · <b>725 eng</b> · 11 Jun · <a href="https://facebook.com/islandbakeryco/posts/1004" target="_blank" rel="noreferrer">open ↗</a></div></div><div class="post"><div>“Windward Fitness update 7 — synthetic demo post”</div><div class="meta">Windward Fitness · <b>316 eng</b> · 14 Jul · <a href="https://facebook.com/windwardfitness/posts/1007" target="_blank" rel="noreferrer">open ↗</a></div></div></div></section>
+<section><div class="sec-head"><span class="sec-title">WHAT THIS REPORT DOES NOT CLAIM</span></div>
+<div class="sec-body limits">
+<li>No follower counts, reach, or impressions — post datasets don't contain them, so this report doesn't invent them.</li>
+<li>No sentiment or topic analysis — that is a separate product, deliberately.</li>
+<li>“% of compared set” is a share of these 4 pages only, not of any market.</li>
+<li>Numbers reflect the moment of scraping; engagement keeps moving after a scrape.</li>
+<li>Anything the input didn't contain appears as “—”, never as a guessed value.</li>
+</div></section>
+<footer><span>MENTAT LOGIC · FACEBOOK PAGE COMPARISON &amp; BENCHMARK v1</span>
+<span>GENERATED FROM THE BUYER'S OWN DATASET · SELF-CONTAINED FILE · NO EXTERNAL CALLS</span></footer>
+</body></html>
